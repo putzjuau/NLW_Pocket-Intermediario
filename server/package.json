@@ -3,16 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/http/server.ts"
+    "dev": "tsx --env--file .env watch src/http/server.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@types/node": "^22.13.10",
+    "drizzle-kit": "^0.30.5",
     "fastify": "^5.2.1",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.40.0",
+    "zod": "^3.24.2"
   }
 }

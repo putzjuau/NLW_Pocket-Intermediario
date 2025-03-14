@@ -1,0 +1,1 @@
+//declaramos aqui as table and columns of bd 

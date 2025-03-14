@@ -1,0 +1,4 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "biomejs.biome"
+} // toda vez que salvar uma arquivo vai fazer a correcao do arquivo e o editor sera o biomejs
