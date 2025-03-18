@@ -1,5 +1,6 @@
 import fastify from 'fastify' // importando
 
+
 const app = fastify()
 
 app
@@ -7,5 +8,7 @@ app
     port: 3333,
   })
   .then(() => {
-    console.log('HHTP server runing!!!')
+    console.log('HtTP server runing!!!')
+
+
   }) // ouvir uma porta P

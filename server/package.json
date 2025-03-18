@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx --env--file .env watch src/http/server.ts"
+    "dev": "tsx  watch src/http/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -18,7 +18,9 @@
     "typescript": "^5.8.2"
   },
   "dependencies": {
+    "dotenv": "^16.4.7",
     "drizzle-orm": "^0.40.0",
+    "postgres": "^3.4.5",
     "zod": "^3.24.2"
   }
 }

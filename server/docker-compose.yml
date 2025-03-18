@@ -7,6 +7,6 @@ services:
     ports: 
     - '5432:5432' #redirecionamento a porta para possivel acesso do bd posts
     environment:
-      - POSTGRES_USER=docker
-      - POSTGRES_PASSWORD=docker
-      - POSTGRES_DB=inorbit
+      - POSTGRES_USER= docker
+      - POSTGRES_PASSWORD = docker
+      - POSTGRES_DB=bitch
